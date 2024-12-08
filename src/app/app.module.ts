@@ -13,6 +13,10 @@ import { FaqsComponent } from './faqs/faqs.component';
 import { FooterComponent } from './footer/footer.component';
 import { ContactComponent } from './contact/contact.component';
 import { StrechingComponent } from './streching/streching.component';
+import { AboutusComponent } from './aboutus/aboutus.component';
+import { ProfileComponent } from './profile/profile.component';
+import { FlexibilityComponent } from './flexibility/flexibility.component';
+import { MeditationComponent } from './meditation/meditation.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +30,11 @@ import { StrechingComponent } from './streching/streching.component';
     FaqsComponent,
     FooterComponent,
     ContactComponent,
-    StrechingComponent
+    StrechingComponent,
+    AboutusComponent,
+    ProfileComponent,
+    FlexibilityComponent,
+    MeditationComponent
   ],
   imports: [
     BrowserModule,

@@ -10,6 +10,12 @@ export class CardsComponent {
     OnClick(){
       this.router.navigate(['/streching'])
     }
+    OnClickF(){
+      this.router.navigate(['/flexibility'])
+    }
+    OnClickM(){
+      this.router.navigate(['/meditation'])
+    }
   }
 
 
