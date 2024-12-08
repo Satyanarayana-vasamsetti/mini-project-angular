@@ -1,0 +1,15 @@
+.card{
+  margin: 0px 20px;
+  border: none;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  text-align: center;
+  padding: 10px;
+}
+.color{
+  background-color: orange !important;
+  max-width: 60%;
+  margin: 5% 20%;
+  color:black;
+  font-weight: bold;
+  border-radius: 5px;
+}
