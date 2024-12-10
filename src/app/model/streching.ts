@@ -1,5 +1,8 @@
 export class Streching {
   id? :string;
+  src!:string;
+  alt!:string;
+  button!:string;
   title! :string;
   thumbnail!:string;
   banner!:string;
@@ -8,5 +11,4 @@ export class Streching {
   subdescription!:string;
   price!:number;
   rating!:number;
-  
 }

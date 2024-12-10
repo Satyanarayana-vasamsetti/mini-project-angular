@@ -1,1 +1,12 @@
-<p>streching works!</p>
+<div class="container">
+  <div class="row row-cols-1 row-cols-md-3 g-4">
+    <div class="col" *ngFor="let d of details">
+      <div class="card">
+        <img [src]="d.src" [alt]="d.alt">
+        <h1>{{d.title | uppercase}}</h1>
+        <p>{{d.price | currency:'INR'}}</p>
+        <button class="btn btn-outline-primary">{{d.button}}</button>
+      </div>
+    </div>
+  </div>
+</div>

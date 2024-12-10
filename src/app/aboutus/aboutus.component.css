@@ -1,0 +1,28 @@
+.container{
+  max-width: 100%;
+  margin-top:3.5%;
+}
+.card{
+  border: none;
+}
+.card-title{
+  text-align: center;
+  margin-bottom: 5%;
+  color: #006400;
+}
+.card-body p{
+  font-size: 1.4rem;
+  color: #013220;
+}
+.desc{
+  width: 100%;
+  background-color: #013220;
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 1rem;
+}
+.indesc{
+  max-width: 20%;
+  font-size: 1.4rem;
+}
