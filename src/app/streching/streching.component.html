@@ -1,12 +1,72 @@
+<app-navbar></app-navbar>
+<div class="desc">
+    <h1> Welcome to the SoulStretch Academy <br> by Ira Trivedi</h1>
+</div>
+<div class="heading">
+  <h1>Our Courses</h1>
+  <hr>
+</div>
 <div class="container">
-  <div class="row row-cols-1 row-cols-md-3 g-4">
-    <div class="col" *ngFor="let d of details">
-      <div class="card">
-        <img [src]="d.src" [alt]="d.alt">
-        <h1>{{d.title | uppercase}}</h1>
-        <p>{{d.price | currency:'INR'}}</p>
-        <button class="btn btn-outline-primary">{{d.button}}</button>
+  <div class="row">
+    <div class="col-md-3">
+      <div class="groupcard">
+        <div class="head">
+          <h1>200 Hour Teacher Training Course</h1>
+        </div>
+        <div class="para"><p>Become a certified yoga teacher and deepen your practice and holistic knowledge today with Yoga Acharya Ira Trivedi.</p></div>
+        <div class="btn">
+          <button class="btn btn-outline-secondary" (click)="Onclick();">Read More</button>
+        </div>  
+      </div>
+    </div>
+    <div class="col-md-3">
+      <div class="groupcard">
+        <div class="head">
+          <h1>Kids Yoga Teacher Training Course</h1>
+        </div>
+        <div class="para"><p>Become a certified kids yoga teacher and deepen your practice and knowledge with Yoga Acharya Ira Trivedi</p></div>
+        <div class="btn">
+          <button class="btn btn-outline-secondary" routerLink="/kidscourse">Read More</button>
+        </div>  
+      </div>
+    </div>
+    <div class="col-md-3">
+      <div class="groupcard">
+        <div class="head">
+          <h1>Yin Yoga Teacher Training Course</h1>
+        </div>
+        <div class="para"><p>Become a certified Yin Yoga Teacher and deepen your practice and knowledge with Yin Yoga Acharya Ira Trivedi</p></div>
+        <div class="btn">
+          <button class="btn btn-outline-secondary" routerLink="/yinyang">Read More</button>
+        </div>  
+      </div>
+    </div>
+    <div class="col-md-3">
+      <div class="groupcard">
+        <div class="head">
+          <h1>Pranayama Coach Course</h1>
+        </div>
+        <div class="para"><p>Become a certified advanced pranayama yoga wellness instructor trainer and learn the essential principles  of Pranayama.</p></div>
+        <div class="btn">
+          <button class="btn btn-outline-secondary" routerLink="/pranayama">Read More</button>
+        </div>  
       </div>
     </div>
   </div>
+  
 </div>
+
+<div class="card mb-3">
+  <div class="row g-0">
+    <div class="col-md-6">
+      <div class="card-body" style="text-align: center;">
+        <h5 class="card-title">Transform your passion into a career</h5>
+        <p class="card-text">Our yoga academy conducts Yoga Alliance-certified courses taught by Ira Trivedi and our stellar team. This is no ordinary academy. We ensure our students get the attention they deserve and we help them with future job prospects. Ira delivers her wisdom ensuring a beautiful, transformative experience.</p>
+      </div>
+    </div>
+    <div class="col-md-5">
+      <img src="https://images.pexels.com/photos/8436719/pexels-photo-8436719.jpeg?auto=compress&cs=tinysrgb&w=600" class="img-fluid rounded-start" alt="...">
+    </div>
+  </div>
+</div>
+<app-footer></app-footer>

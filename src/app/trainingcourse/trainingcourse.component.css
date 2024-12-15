@@ -1,0 +1,152 @@
+.desc{
+  background-color:  #013220;
+  color: white;
+  padding: 4rem;
+  text-align: center;
+  font-weight: 800;
+}
+.book{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+.log{
+  width: 40%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.log img{
+  background:transparent;
+  width:40%; 
+}
+hr{
+  width: 450px;
+  height: 2.5px;
+  margin: auto;
+}
+.book h1{
+  color: #846267;
+}
+.book .btn{
+  background-color:#087E8B;
+  color: whitesmoke;
+  font-weight: bold;
+  border: 2px solid #087E8B;
+  transition: all ease 0.5s;
+}
+.book .btn:hover{
+  background-color: whitesmoke;
+  border-color:#087E8B;
+  color:#087E8B ;
+}
+.who{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding:2rem;
+}
+.who ul{
+  padding: 1rem;
+  width: 70%;
+}
+.who ul li{
+  color: #584D3D;
+  font-size:1.19rem;
+}
+.who h1{
+  color: #846267;
+}
+.btn{
+  border: 3px solid #A20021;
+  font-weight: bold;
+  color: #A20021;
+}
+.btn:hover{
+  background-color:#A20021;
+  color: #fff;
+}
+.course_info{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem;
+}
+.table {
+  border: 2px solid #C57B57;
+  border-collapse: collapse;
+  width: 65%;
+}
+.table th, .table td {
+  border: 2px solid #C57B57;
+  padding: 8px;
+}
+.table tr .head{
+  background-color: #A20021;
+  font-size: 2rem;
+  text-align: center;
+  color: #fff;
+  padding: 0.8rem;
+}
+.table th{
+  background-color: #F1AB86;
+  padding: 2rem;
+  font-size: 1.3rem;
+}
+.table td{
+  padding: 2rem;
+  font-size: 1.2rem;
+}
+.img-card{
+  padding: 2rem;
+}
+.img-card .card{
+  padding: 5rem;
+  border: none;
+}
+.card-body{
+  display: flex;
+  flex-direction: column;
+  row-gap: 2.4rem;
+}
+.card-desc .card-title{
+  font-size:2.3rem;
+}
+.card-desc .card-text{
+  font-size: 1.5rem;
+}
+.why-course{
+  background-color: #F0F7EE;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 5% 0%;
+}
+.why-course h1{
+  text-align: center;
+  color: #513B3C;
+}
+.why-course ul,.curriculum ul{
+  width: 80%;
+}
+.why-course ul li,.curriculum ul li{
+  font-size: 1.5rem;
+  color: #36382E;
+}
+.curriculum{
+  background-color: #F5E0B7;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 2rem;
+  margin-bottom: 3%;
+}
+.curriculum h1{
+  color: #846267;
+  text-align: center;
+}

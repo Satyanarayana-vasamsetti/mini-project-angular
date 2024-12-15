@@ -1,12 +1,40 @@
 [
   {
     "id":1,
-    "src":"https://images.pexels.com/photos/3076509/pexels-photo-3076509.jpeg?auto=compress&cs=tinysrgb&w=600",
     "alt":"Image",
-    "title":"strech",
+    "title":"200 Hour Teacher Training Course",
     "button":"Read More",
     "rating":4,
-    "description":"",
+    "description":"Become a certified yoga teacher and deepen your practice and holistic knowledge today with Yoga Acharya Ira Trivedi.",
+    "subdescription":"",
+    "click":"Onclick();"
+  },
+  {
+    "id":2,
+    "alt":"Image",
+    "title":"Kids Yoga Teacher Training Course",
+    "button":"Read More",
+    "rating":4,
+    "description":"Become a certified kids yoga teacher and deepen your practice and knowledge with Yoga Acharya Ira Trivedi ",
     "subdescription":""
+  },
+  {
+    "id":3,
+    "alt":"Image",
+    "title":"Yin Yoga Teacher Training Course",
+    "button":"Read More",
+    "rating":4,
+    "description":"Become a certified Yin Yoga Teacher and deepen your practice and knowledge with Yin Yoga Acharya Ira Trivedi ",
+    "subdescription":""
+  },
+  {
+    "id":4,
+    "alt":"Image",
+    "title":"Pranayama Coach Course",
+    "button":"Read More",
+    "rating":4,
+    "description":"Become a certified advanced pranayama yoga wellness instructor trainer and learn the essential principles  of Pranayama.",
+    "subdescription":""
+    
   }
 ]
