@@ -1,0 +1,30 @@
+h1{
+  text-align: center;
+}
+.container{
+  margin-top: 5%;
+  max-width: 40%;
+  padding: 1rem;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  
+  gap: 0.5rem;
+}
+button{
+  margin-top: 0.5rem;
+}
+.map{
+  display: flex;
+  flex-direction: column;
+  justify-content:space-around;
+  align-items: center;
+  padding: 1rem 10rem;
+}
+iframe{
+  min-width: 100%;
+}
+.line{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3rem;
+}
