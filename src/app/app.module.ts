@@ -18,6 +18,10 @@ import { ProfileComponent } from './profile/profile.component';
 import { FlexibilityComponent } from './flexibility/flexibility.component';
 import { MeditationComponent } from './meditation/meditation.component';
 import {HttpClientModule} from '@angular/common/http';
+import { TrainingcourseComponent } from './trainingcourse/trainingcourse.component';
+import { KidscourseComponent } from './kidscourse/kidscourse.component';
+import { YinyangComponent } from './yinyang/yinyang.component';
+import { PranayamaComponent } from './pranayama/pranayama.component';
 
 @NgModule({
   declarations: [
@@ -35,7 +39,11 @@ import {HttpClientModule} from '@angular/common/http';
     AboutusComponent,
     ProfileComponent,
     FlexibilityComponent,
-    MeditationComponent
+    MeditationComponent,
+    TrainingcourseComponent,
+    KidscourseComponent,
+    YinyangComponent,
+    PranayamaComponent
   ],
   imports: [
     BrowserModule,

@@ -9,6 +9,10 @@ import { AboutusComponent } from './aboutus/aboutus.component';
 import { ProfileComponent } from './profile/profile.component';
 import { FlexibilityComponent } from './flexibility/flexibility.component';
 import { MeditationComponent } from './meditation/meditation.component';
+import { TrainingcourseComponent } from './trainingcourse/trainingcourse.component';
+import { KidscourseComponent } from './kidscourse/kidscourse.component';
+import { YinyangComponent } from './yinyang/yinyang.component';
+import { PranayamaComponent } from './pranayama/pranayama.component';
 
 const routes: Routes = [
   {path:'',component:WelcomeComponent},
@@ -19,6 +23,10 @@ const routes: Routes = [
   {path:'streching',component:StrechingComponent},
   {path:'flexibility',component:FlexibilityComponent},
   {path:'meditation',component:MeditationComponent},
+  {path:'trainingcourse',component:TrainingcourseComponent},
+  {path:'kidscourse',component:KidscourseComponent},
+  {path:'yinyang',component:YinyangComponent},
+  {path:'pranayama',component:PranayamaComponent},
   {path:'**',component:PagenotfoundComponent}
 ]
 
