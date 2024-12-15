@@ -1,0 +1,105 @@
+.desc{
+  background-color: #013220 ;
+  color: white;
+  padding: 4rem;
+  text-align: center;
+  font-weight: 800;
+}
+.img-card{
+  padding: 2rem;
+}
+.img-card .card{
+  padding: 5rem;
+  border: none;
+}
+.card-body{
+  display: flex;
+  flex-direction: column;
+  row-gap: 2.4rem;
+}
+.card-body h1{
+  text-align: center;
+  font-size: 3rem;
+  color:#846267;
+}
+.card-desc .card-title{
+  font-size:2.3rem;
+}
+.card-desc .card-text{
+  font-size: 1.5rem;
+}
+.course_info{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem;
+}
+.table {
+  border: 2px solid #C57B57;
+  border-collapse: collapse;
+  width: 65%;
+}
+.table th, .table td {
+  border: 2px solid #C57B57;
+  padding: 8px;
+}
+.table tr .head{
+  background-color: #A20021;
+  font-size: 2rem;
+  text-align: center;
+  color: #fff;
+  padding: 0.8rem;
+}
+.table th{
+  background-color: #F1AB86;
+  padding: 2rem;
+  font-size: 1.3rem;
+}
+.table td{
+  padding: 2rem;
+  font-size: 1.2rem;
+}
+.curriculum{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 3rem 20rem;
+  margin:auto;
+}
+.curriculum-inner{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 5rem;
+}
+.curriculum h1{
+  color: #846267;
+  text-align: center;
+}
+.curriculum-inner h3{
+  color: #846267;
+}
+.curriculum-inner ol li{
+  font-size: 1rem;
+}
+.why-course{
+  background-color: #F0F7EE;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 5% 0%;
+}
+.why-course h1{
+  text-align: center;
+  color:#846267;
+}
+.why-course ul,.curriculum ul{
+  width: 80%;
+}
+.why-course ul li,.curriculum ul li{
+  font-size: 1.5rem;
+  color: #36382E;
+}

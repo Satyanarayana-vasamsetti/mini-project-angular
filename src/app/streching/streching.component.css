@@ -1,0 +1,60 @@
+.desc{
+  background-color: #013220;
+  color: white;
+  padding: 4rem;
+  text-align: center;
+  font-weight: 800;
+}
+.heading h1{
+  text-align: center;
+  padding-top: 1rem;
+  font-size: 3rem;
+  color: #013220;
+}
+.heading hr{
+  width: 300px;
+  height: 2px;
+  color: brown;
+  margin: auto;
+}
+.groupcard h1{
+  font-size: 2rem;
+}
+.groupcard p{
+  font-size: 1.25rem;
+}
+.container{
+  padding: 2rem;
+  
+}
+.groupcard{
+  padding: 1rem;
+  height:400px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  background-color: #F1E3E4;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
+  text-align: center;
+}
+.groupcard:hover{
+  transform: translateY(-3%);
+  transition: transform 0.420ms ease;
+}
+.card{
+  border: none;
+  padding: 3rem;
+}
+.row{
+  display: flex;
+  justify-content: space-evenly;
+}
+.card .card-title{
+  font-size: 3rem;
+  color:#3F6C51 ;
+}
+.card .card-text{
+  font-size: 1.5rem;
+  color: #1D1E2C;
+}

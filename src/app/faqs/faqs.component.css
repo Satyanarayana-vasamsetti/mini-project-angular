@@ -1,0 +1,19 @@
+.accordion{
+  background-color: #F1F5F2;
+  padding: 3rem;
+}
+
+.accordion h1{
+  margin-bottom: 2rem;
+}
+.accordion-collapse{
+  background-color: #A2A77F;
+}
+.accordion-button{
+  background-color:whitesmoke;
+  font-weight: bold;
+}
+.accordion-button:hover{
+  color:#50723C;
+  
+}

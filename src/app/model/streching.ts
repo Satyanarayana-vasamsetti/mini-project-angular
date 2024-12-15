@@ -11,4 +11,5 @@ export class Streching {
   subdescription!:string;
   price!:number;
   rating!:number;
+
 }
