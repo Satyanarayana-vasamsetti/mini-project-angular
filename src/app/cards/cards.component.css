@@ -4,6 +4,15 @@
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   text-align: center;
   padding: 10px;
+  background-color: #FFFCF7;
+}
+.card h1{
+  margin-top: 3%;
+  font-size: 2rem;
+  color:#355834;
+}
+.card:hover{
+  transform: scale(1.05);
 }
 .color{
   background-color: orange !important;
@@ -12,4 +21,8 @@
   color:black;
   font-weight: bold;
   border-radius: 5px;
+}
+.row{
+  margin-top: 5%;
+  margin-bottom: 3%;
 }
