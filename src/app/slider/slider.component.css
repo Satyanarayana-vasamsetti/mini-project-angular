@@ -1,0 +1,38 @@
+.img-card{
+  padding: 2rem;
+}
+.img-card .card{
+  padding: 5rem;
+  border: none;
+}
+
+.img-card .card-body{
+  display: flex;
+  flex-direction: column;
+  row-gap: 2rem;
+}
+.card-desc .card-title{
+  font-size:2.8rem;
+  text-align: center;
+  
+  color: #65524D;
+}
+.card-desc .card-text{
+  margin-top: 2%;
+  font-size: 1.45rem;
+}
+.btn{
+  border: 3px solid #A20021;
+  font-weight: bold;
+  color: #A20021;
+}
+.btn:hover{
+  background-color:#A20021;
+  color: #fff;
+}
+hr{
+  width:13%;
+  height: 2.5px;
+  color: brown;
+  margin: auto;
+}
