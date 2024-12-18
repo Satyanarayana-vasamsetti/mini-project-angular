@@ -14,6 +14,7 @@ import { KidscourseComponent } from './kidscourse/kidscourse.component';
 import { YinyangComponent } from './yinyang/yinyang.component';
 import { PranayamaComponent } from './pranayama/pranayama.component';
 import { LoginComponent } from './login/login.component';
+import { RegisterComponent } from './register/register.component';
 
 const routes: Routes = [
   {path:'',component:WelcomeComponent},
@@ -29,6 +30,7 @@ const routes: Routes = [
   {path:'yinyang',component:YinyangComponent},
   {path:'pranayama',component:PranayamaComponent},
   {path:'login',component:LoginComponent},
+  {path:'register',component:RegisterComponent},
   {path:'**',component:PagenotfoundComponent}
 ]
 
