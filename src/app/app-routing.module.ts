@@ -13,6 +13,7 @@ import { TrainingcourseComponent } from './trainingcourse/trainingcourse.compone
 import { KidscourseComponent } from './kidscourse/kidscourse.component';
 import { YinyangComponent } from './yinyang/yinyang.component';
 import { PranayamaComponent } from './pranayama/pranayama.component';
+import { LoginComponent } from './login/login.component';
 
 const routes: Routes = [
   {path:'',component:WelcomeComponent},
@@ -27,6 +28,7 @@ const routes: Routes = [
   {path:'kidscourse',component:KidscourseComponent},
   {path:'yinyang',component:YinyangComponent},
   {path:'pranayama',component:PranayamaComponent},
+  {path:'login',component:LoginComponent},
   {path:'**',component:PagenotfoundComponent}
 ]
 
