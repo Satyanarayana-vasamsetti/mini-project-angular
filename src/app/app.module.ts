@@ -24,6 +24,7 @@ import { YinyangComponent } from './yinyang/yinyang.component';
 import { PranayamaComponent } from './pranayama/pranayama.component';
 import { LoginComponent } from './login/login.component';
 import { ContactUsComponent } from './contact-us/contact-us.component';
+import { RegisterComponent } from './register/register.component';
 
 @NgModule({
   declarations: [
@@ -47,7 +48,8 @@ import { ContactUsComponent } from './contact-us/contact-us.component';
     YinyangComponent,
     PranayamaComponent,
     LoginComponent,
-    ContactUsComponent
+    ContactUsComponent,
+    RegisterComponent
   ],
   imports: [
     BrowserModule,
