@@ -1,0 +1,27 @@
+.img-card{
+  padding: 2rem;
+}
+.img-card .card{
+  padding: 5rem;
+  border: none;
+}
+.card-body{
+  display: flex;
+  flex-direction: column;
+  row-gap: 2.4rem;
+}
+.card-desc .card-title{
+  font-size:2.3rem;
+}
+.card-desc .card-text{
+  font-size: 1.5rem;
+}
+.btn{
+  border: 3px solid #A20021;
+  font-weight: bold;
+  color: #A20021;
+}
+.btn:hover{
+  background-color:#A20021;
+  color: #fff;
+}
