@@ -1,0 +1,64 @@
+.img-card{
+  padding: 1rem;
+  
+}
+.img-card .card{
+  
+  padding: 5rem;
+  border: none;
+}
+.grid-card .card-body{
+  display: flex;
+  flex-direction: column;
+  row-gap: 2.4rem;
+  background-color: #E1EFF6;
+}
+.card-desc .card-title{
+  font-size:2.8rem;
+  color:#013220 ;
+}
+.card-desc .card-text{
+  font-size: 1.6rem;
+}
+span{
+  font-weight: bold;
+}
+.btn{
+  border: 3px solid #A20021;
+  font-weight: bold;
+  color: #A20021;
+}
+.btn:hover{
+  background-color:#A20021;
+  color: #fff;
+}
+.desc{
+  background-color:  #013220;
+  color: white;
+  padding: 4rem;
+  text-align: center;
+  font-weight: 800;
+}
+.grid-card{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 1.5rem;
+  padding: 4rem;
+}
+.grid-card h1{
+  font-size: 2.8rem;
+}
+.grid-card .row{
+  width: 60%;
+}
+.desc-img{
+  padding: 3rem;
+  border: none;
+}
+.desc-img .card-body h1{
+  text-align: center;
+  margin-bottom: 2%;
+}
+
