@@ -11,5 +11,7 @@ export class Streching {
   subdescription!:string;
   price!:number;
   rating!:number;
-
+  username!:string;
+  email!:string;
+  password!:string;
 }
