@@ -1,0 +1,28 @@
+<div class="login-cont">
+  <div class="login">
+    <form (ngSubmit)="onLogin()">
+      <!-- Email input -->
+      <div class="form-outline mb-4">
+        <input type="email" id="form2Example1" class="form-control" placeholder="Email" [(ngModel)]="email" name="email" required />
+      </div>
+
+      <!-- Password input -->
+      <div class="form-outline mb-4">
+        <input type="password" id="form2Example2" class="form-control" placeholder="Password" [(ngModel)]="password" name="password" required />
+      </div>
+
+      <!-- Submit button -->
+      <button
+        type="submit"
+        class="btn btn-primary btn-block mb-4"
+        id="btn-sign"
+        [innerText]="isLoggedIn ? 'Logout' : 'Sign In'"
+      ></button>
+
+      <!-- Register buttons -->
+      <div class="text-center">
+        <p>Not a member? <a routerLink="/register">Register</a></p>
+      </div>
+    </form>
+  </div>
+</div>
