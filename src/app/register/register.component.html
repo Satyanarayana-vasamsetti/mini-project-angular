@@ -1,0 +1,147 @@
+<section class="vh-100 gradient-custom">
+  <div class="container py-5 h-100">
+    <div class="row justify-content-center align-items-center h-100">
+      <div class="col-12 col-lg-9 col-xl-7">
+        <div class="card shadow-2-strong card-registration" style="border-radius: 15px;">
+          <div class="card-body p-4 p-md-5">
+            <h3 class="mb-4 pb-2 pb-md-0 mb-md-5">Registration Form</h3>
+            <form [formGroup]="registrationForm" (ngSubmit)="adduser()">
+
+              <div class="row">
+                <div class="col-md-6 mb-4">
+                  <div class="form-outline">
+                    <input
+                      type="text"
+                      id="firstName"
+                      class="form-control form-control-lg"
+                      placeholder="First Name"
+                      formControlName="firstName"
+                    />
+                    <small *ngIf="registrationForm.get('firstName')?.touched && registrationForm.get('firstName')?.invalid">
+                      <span *ngIf="registrationForm.get('firstName')?.errors?.['required']">First Name is required.</span>
+                      <span *ngIf="registrationForm.get('firstName')?.errors?.['minlength']">Minimum 3 characters required.</span>
+                    </small>
+                  </div>
+                </div>
+                <div class="col-md-6 mb-4">
+                  <div class="form-outline">
+                    <input
+                      type="text"
+                      id="lastName"
+                      class="form-control form-control-lg"
+                      placeholder="Last Name"
+                      formControlName="lastName"
+                    />
+                    <small *ngIf="registrationForm.get('lastName')?.touched && registrationForm.get('lastName')?.invalid">
+                      <span *ngIf="registrationForm.get('lastName')?.errors?.['required']">Last Name is required.</span>
+                    </small>
+                  </div>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-md-6 mb-4">
+                  <div class="form-outline">
+                    <input
+                      type="date"
+                      id="birthdayDate"
+                      class="form-control form-control-lg"
+                      formControlName="birthday"
+                    />
+                    <small *ngIf="registrationForm.get('birthday')?.touched && registrationForm.get('birthday')?.invalid">
+                      <span *ngIf="registrationForm.get('birthday')?.errors?.['required']">Birthday is required.</span>
+                    </small>
+                  </div>
+                </div>
+
+                <div class="col-md-6 mb-4">
+                  <h6 class="mb-2 pb-1">Gender:</h6>
+                  <div class="form-check form-check-inline">
+                    <input
+                      class="form-check-input"
+                      type="radio"
+                      id="femaleGender"
+                      value="Female"
+                      formControlName="gender"
+                    />
+                    <label class="form-check-label" for="femaleGender">Female</label>
+                  </div>
+                  <div class="form-check form-check-inline">
+                    <input
+                      class="form-check-input"
+                      type="radio"
+                      id="maleGender"
+                      value="Male"
+                      formControlName="gender"
+                    />
+                    <label class="form-check-label" for="maleGender">Male</label>
+                  </div>
+                  <small *ngIf="registrationForm.get('gender')?.touched && registrationForm.get('gender')?.invalid">
+                    Gender is required.
+                  </small>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-md-6 mb-4">
+                  <div class="form-outline">
+                    <input
+                      type="email"
+                      id="emailAddress"
+                      class="form-control form-control-lg"
+                      placeholder="Email"
+                      formControlName="email"
+                    />
+                    <small *ngIf="registrationForm.get('email')?.touched && registrationForm.get('email')?.invalid">
+                      <span *ngIf="registrationForm.get('email')?.errors?.['required']">Email is required.</span>
+                      <span *ngIf="registrationForm.get('email')?.errors?.['email']">Invalid email format.</span>
+                    </small>
+                  </div>
+                </div>
+
+                <div class="col-md-6 mb-4">
+                  <div class="form-outline">
+                    <input
+                      type="tel"
+                      id="phoneNumber"
+                      class="form-control form-control-lg"
+                      placeholder="Phone Number"
+                      formControlName="phone"
+                    />
+                    <small *ngIf="registrationForm.get('phone')?.touched && registrationForm.get('phone')?.invalid">
+                      <span *ngIf="registrationForm.get('phone')?.errors?.['required']">Phone number is required.</span>
+                      <span *ngIf="registrationForm.get('phone')?.errors?.['pattern']">Invalid phone number format.</span>
+                    </small>
+                  </div>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-md-6 mb-4">
+                  <div class="form-outline">
+                    <input
+                      type="password"
+                      id="password"
+                      class="form-control form-control-lg"
+                      placeholder="Password"
+                      formControlName="password"
+                    />
+                    <small *ngIf="registrationForm.get('password')?.touched && registrationForm.get('password')?.invalid">
+                      <span *ngIf="registrationForm.get('password')?.errors?.['required']">Password is required.</span>
+                      <span *ngIf="registrationForm.get('password')?.errors?.['minlength']">Password must be at least 8 characters.</span>
+                    </small>
+                  </div>
+                </div>
+              </div>
+
+              <div class="mt-4 pt-2">
+                <button type="submit" class="btn btn-primary btn-lg" [disabled]="registrationForm.invalid">Submit</button>
+              </div>
+
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
